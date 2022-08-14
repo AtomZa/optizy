@@ -2,7 +2,6 @@ from urllib import request
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
-from .models import Members
 from io import StringIO
 from django.urls import reverse
 
@@ -117,11 +116,9 @@ def index(request):
         return data
 
     # Web Application
-    mymembers = Members.objects.all().values()       
     template = loader.get_template('myfirst.html')
     
     context = {
-        'mymembers': mymembers,
         'graph': return_graph(),
         'mmf': mmf_graph(),
 
@@ -133,6 +130,5 @@ def index(request):
         "aair": aair,
         "ammf": ammf,
         "zmmf": zmmf,
-
     }
     return HttpResponse(template.render(context, request))
