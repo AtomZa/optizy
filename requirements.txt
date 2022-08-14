@@ -4,7 +4,7 @@ backcall==0.2.0
 brotlipy==0.7.0
 certifi==2020.6.20
 cffi @ file:///opt/concourse/worker/volumes/live/8fbed55e-0573-4246-7cf9-162067141d5e/volume/cffi_1605538070636/work
-chardet @ file:///opt/concourse/worker/volumes/live/a5a7c56b-23cb-471d-7404-f4130b8aed33/volume/chardet_1605303184529/work
+c @ file:///opt/concourse/worker/volumes/live/a5a7c56b-23cb-471d-7404-f4130b8aed33/volume/chardet_1605303184529/work
 click==8.0.1
 click-default-group==1.2.2
 cloup==0.7.1
