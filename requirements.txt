@@ -42,6 +42,8 @@ pyrr==0.10.3
 pygame==2.1.2
 pyglet==1.5.18
 Pygments==2.10.0
+pyobjc-core==7.3
+pyobjc-framework-Cocoa==7.3
 python-dateutil==2.8.2
 PyYAML==5.4.1
 rich==10.7.0
