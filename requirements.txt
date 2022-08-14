@@ -12,6 +12,7 @@ commonmark==0.9.1
 cycler==0.10.0
 Cython==0.29.24
 decorator==5.0.9
+Django==4.1
 glcontext==2.3.4
 ipython==7.26.0
 ipython-genutils==0.2.0
