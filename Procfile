@@ -1,1 +1,0 @@
-web gunicorn matapp.wsgi:application --log-file -
